@@ -33,5 +33,13 @@ Method:GET
 
 	/api/user/details →Get user's details
 
+** Docker command**
+
+ 	docker build -t scalableservice/userdemo .
+	
+	docker run sha256:78e0a90c501869aec215fd7be6066f9cec51be004b69999bd72f829e59e8607f   
+	
+	docker run -d -p 5000:5000 --name scalableServiceUserDemo-container scalableservice/userdemo 
+
 **Demo Video:**
 https://1drv.ms/v/c/592eb2e7bd9c342f/EQO7CKe8w8RBpoItUPSzTEAB4TfN_N9qungxt_G5l4y8PQ?e=P1oPmm
